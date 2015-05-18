@@ -1,0 +1,29 @@
+body {
+	marign: 0px;
+}
+
+#canvasContainer {
+	height: 100vh;
+	width: 100vw;
+	z-index: -2;
+	position: absolute;
+}
+
+
+#canvas {
+	position: absolute;
+	z-index: -1;
+}
+
+#main * {
+	position: relative;
+	margin: auto auto auto auto;
+	z-index: 10;
+	font-family: 'Open Sans';
+	text-align: center;
+}
+
+#transparentBox {
+	opacity: .5%;
+	background-color: #000;
+}
