@@ -1,9 +1,13 @@
+html {
+	background-color: #93dec4
+}
+
 body {
 	marign: 0px;
 }
 
 #canvasContainer {
-	height: 100vh;
+	height: 300vh;
 	width: 100vw;
 	z-index: -2;
 	position: absolute;
