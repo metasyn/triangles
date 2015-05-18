@@ -7,7 +7,7 @@ body {
 }
 
 #canvasContainer {
-	height: 300vh;
+	height: 1000vh;
 	width: 100vw;
 	z-index: -2;
 	position: absolute;
@@ -25,6 +25,7 @@ body {
 	z-index: 10;
 	font-family: 'Open Sans';
 	text-align: center;
+	color: rgba(0,0,0,.6);
 }
 
 #transparentBox {
