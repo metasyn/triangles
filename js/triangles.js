@@ -131,10 +131,24 @@ function drawMixedRows(size){
 	}
 }
 
+
+function drawRandomRows(size){
+    for (var i = 0; i < canvas.height; i += (size)){
+        Math.random() > .5 ? drawMixedRowA(size, i-size) : drawMixedRowB(size, i);
+	}
+}
+
+
  // TIMER //
 
-drawMixedRows(100);
-setInterval(
-	function(){
-		drawMixedRows(50);
-		ctx.globalAlpha = 0.3; }, 100)
+function repeater(){
+  drawRandomRows(500);
+  setInterval(
+      function(){
+          drawRandomRows(50);
+          ctx.globalAlpha = 0.3; }, 100)
+}
+
+document.body.onload(repeater());
+
+
