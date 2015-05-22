@@ -7,7 +7,7 @@ body {
 }
 
 #canvasContainer {
-	height: 1000vh;
+	height: 2000vh;
 	width: 100vw;
 	z-index: -2;
 	position: absolute;
